@@ -5,6 +5,6 @@ receivers:
   - name: 'slack-notifications'
     slack_configs:
       - text: "{{ .CommonAnnotations.summary }}"
-        api_url: 'https://hooks.slack.com/services/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'
+        api_url: 'https://hooks.slack.com/services/...'
         channel: 'alert'
         send_resolved: true
