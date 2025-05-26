@@ -1,0 +1,12 @@
+global:
+  resolve_timeout: 1m
+
+route:
+  receiver: 'slack-notifications'
+
+receivers:
+  - name: 'slack-notifications'
+    slack_configs:
+      - api_url: 'https://hooks.slack.com/services/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'
+        channel: '#aibe-1-학습질문'
+        send_resolved: true
