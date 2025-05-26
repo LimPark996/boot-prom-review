@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # --- 설정 ---
-URL="http://localhost:8080/200"  # 테스트할 URL을 입력하세요.
+URL="http://localhost:8080/money"  # 테스트할 URL을 입력하세요.
 TOTAL_REQUESTS=100000                           # 보낼 총 요청 수를 입력하세요.
 CONCURRENT_USERS=5                           # 동시에 실행할 사용자(프로세스) 수를 입력하세요.
 OUTPUT_FILE="load_test_results.log"           # 결과(HTTP 상태 코드)를 저장할 파일 이름

@@ -5,6 +5,6 @@ receivers:
   - name: 'slack-notifications'
     slack_configs:
       - text: "뭔가 잘못되었습니다"
-        api_url: 'https://hooks.slack.com/services/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'
-        channel: 'aibe-1-학습질문'
+        api_url: 'https://hooks.slack.com/services/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'
+        channel: 'alert'
         send_resolved: true
