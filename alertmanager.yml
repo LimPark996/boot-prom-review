@@ -4,7 +4,7 @@ route:
 receivers:
   - name: 'slack-notifications'
     slack_configs:
-      - text: "뭔가 잘못되었습니다"
-        api_url: 'https://hooks.slack.com/services/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'
+      - text: "{{ .CommonAnnotations.summary }}"
+        api_url: 'https://hooks.slack.com/services/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'
         channel: 'alert'
         send_resolved: true
